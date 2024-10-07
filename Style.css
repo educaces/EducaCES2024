@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Logo{
+ width: 180px;
+ height: 110px;
+ margin: 20px;
+ align-items: center;
+ float: left;
+ display: flex;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -3px 10px 18px rgb(21, 128, 0);
+    padding-inline: 16px;
+    margin-right: 1px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    max-width: 1280px;
+    height: 120px;
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 32px;
+}
+.nav-list a{
+    font-size: 19.2px;
+    color: rgb(71, 71, 71);
+    padding-block: 16px;
+}
+.nav-list a:hover{
+    transition: 0.5s;
+    color: rgb(120, 255, 165);
+}
+.hamburguer{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #707070;
+    cursor: pointer;
+}
+.hamburguer::before,
+.hamburguer::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #707070;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 3rem 5rem;
+    list-style-type: none;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: white;
+}
+.Container{
+    margin-top: 0.5px;
+    height: 440px;
+    display: block;
+    background-image: url(fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    margin-top: 0px;
+    margin-left: 100px;
+    font-family: 'Changa', sans-serif;
+    font-size: 41px;
+    color: white;
+    text-shadow: 2px -4px black;
+}
+h20{
+    margin-left: 0px;
+}
+p{
+    font-family:'Changa', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-top: 1px;
+}
+#inicial{
+    width: 550px;
+    height: 340px;
+    margin-top: 1cm;
+    float:right;
+    margin-left: -125px;
+    
+}
+h2{
+    font-size: 50px;
+    color: black;
+    font-family: 'Changa', sans-serif;
+    margin: 30px;
+    padding-top: 35px;
+}
+h3{
+    font-size: 55px;
+    color: rgb(120, 255, 165);
+    font-family: 'Merienda', cursive;
+    margin-top: -40px;
+    margin-left: 450px;
+}
+h4{
+    color: black;
+    font-family: 'Changa', sans-serif;
+    font-size: 22px;
+    margin-top: 1px;
+}
+
+body{
+    background-color: hsl(186, 100%, 98%);
+    height: 100vh;
+}
+.Corpo{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+}
+#icon1{
+    width: 120px;
+    height: 100px;
+    margin: 35px;
+}
+.Historia{
+    width: 24%;
+    box-shadow: 20px 20px 100px -30px hsl(265, 100%, 86%);
+    margin: 5px;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: #dcb1fb;
+}
+.Historia a{
+    text-decoration: none;
+    color: inherit;
+}
+.Historia:hover{
+    color: rgb(120, 255, 165);
+    border-color: rgb(120,255 , 165);
+    cursor: pointer;
+}
+.Historia a :hover{
+    color: rgb(120, 255, 165);
+
+}
+.Comida{
+    width: 24%;
+    box-shadow: 20px 20px 100px -30px #feb0f7;
+    margin: 5px;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: #f9b9fa;
+
+}
+.Comida a{
+    text-decoration: none;
+    color: inherit;
+}
+.Comida:hover{
+    color: rgb(120, 255, 165);
+    border-color: rgb(120,255 , 165);
+    cursor: pointer;
+}
+.Comida a :hover{
+    color: rgb(120, 255, 165);
+
+}
+.Tecnologia{
+    width: 24%;
+    box-shadow: 20px 20px 100px -30px #caeffb;
+    margin:5px;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: rgb(205, 205, 254);
+}
+.Tecnologia a{
+    text-decoration: none;
+    color: inherit;
+}
+.Tecnologia:hover{
+    color: rgb(120, 255, 165);
+    border-color: rgb(120,255 , 165);
+    cursor: pointer;
+}
+.Tecnologia a :hover{
+    color: rgb(120, 255, 165);
+}
+.Circo{
+    width: 24%;
+     box-shadow: 20px 20px 100px -30px hsl(8, 100%, 83%);
+     margin: 5px;
+     border-radius: 2em;
+     border-style: solid;
+     border-color: rgb(255, 214, 214);
+}
+.Circo a{
+    text-decoration: none;
+    color: inherit;
+}
+.Circo:hover{
+    color: rgb(120, 255, 165);
+    border-color: rgb(120,255 , 165);
+    cursor: pointer;
+}
+.Circo a :hover{
+    color: rgb(120, 255, 165);
+}
+body{
+    overflow-x: hidden;
+}
+#video{
+    align-items: center;
+    width: 1020px;
+    height: 520px;
+    margin: 50px;
+    margin-left: 130px;
+    border-radius: 2em;
+}
+
+
+@media screen and (max-width: 768px){
+    .Corpo{
+        flex-direction:row;
+        flex-wrap: wrap;
+        margin-bottom: -17px;
+        padding: 0;
+    }
+    .Tecnologia,.Historia,.Comida,.Circo{
+        width: 45%;
+        align-items:center;
+        text-align: center;
+    }
+    h4{
+        font-size: 18px;
+    }
+    #icon1{
+        width: 80px;
+        height: 60px;
+        align-items: center;
+    }
+    h3{
+        font-size: 22px;
+        margin-left: 120px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h1{
+        font-size: 22px;
+        margin-left: 20px;
+        
+        text-shadow: 1px -3px black;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    #Logo{
+        margin: 0px;
+    }
+    
+    #footer_content {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+    .hamburguer{
+        display: block;
+        z-index: 1;
+    }
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgb(255, 255, 255);
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+        pointer-events: none;
+    }
+    .nav-list a{
+        font-size: 24px;
+        opacity: 0;
+    }
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+    }
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+        
+    }
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+        
+    }
+    .nav-list li:nth-child(4) a{
+        transition: 0.5s 0.8s;
+    }
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    .nav.active .hamburguer{
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    .nav.active .hamburguer::before{
+        transform: rotate(135deg);
+    }
+    .nav.active .hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    .Container{
+        background-image: url(fundao.jpg);
+        background-position: center;
+        height: 400px;
+        min-width: none;
+    }
+    #video{
+        width: 360px;
+        height: 180px;
+        margin: 1px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+h5{
+    font-size: 21px;
+    font-family: 'Changa', sans-serif;
+    color: rgb(255, 255, 255);
+}
+#p{
+    font-family: 'Changa', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+#footer_content {
+    background-color:#44b342;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.5rem 2.5rem;
+}
+#Tech{
+    height: 70px;
+    width: 85px;
+    border-radius: 18cm;
+    margin-top: -45px;
+    margin-left: 100px;
+    
+}
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.15rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+#tiktok{
+    background-color: black;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    font-family: 'Changa', sans-serif;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+
+.footer-list .footer-link {
+    color: var(--color-neutral30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: inherit;
+}
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        align-items: center;
+    }
+    .footer-list{
+        display: none;
+    }
+}
