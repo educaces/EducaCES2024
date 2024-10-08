@@ -11,7 +11,7 @@ body{
     width: 90vw;
     height: 315vh;
     background-color: black;
-    background-image: url(Artes/3chocolate.jpeg);
+    background-image: url(Artes/CHOCOLATE.jpg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body{
         margin-top: 20px;
         background-color: white;
         height: 60vh;
-        background-image: url(Artes/3chocolate.jpeg);
+        background-image: url(Artes/CHOCOLATE.jpg);
         background-repeat: no-repeat;
         display: flex;
     }
